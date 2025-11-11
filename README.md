@@ -1,23 +1,32 @@
-# PL/SQL: Collections, Records & GOTO — Student Performance Demo
+# PL/SQL Collections and Records Demo
 
-## Overview
-This project demonstrates PL/SQL **Collections** (associative arrays, nested tables), **Records** (user-defined record type), and a controlled use of **GOTO**.  
-It is based on the lecture slides *PL/SQL Collections and Records* provided by the instructor.
+## Project Overview
+This project demonstrates the use of PL/SQL Collections, Records, and GOTO statements for managing employee bonus calculations and department summaries.
 
-## Problem statement
-Create a PL/SQL routine that:
-- Stores student marks using a **collection** (associative array).
-- Builds per-student summaries using a **RECORD** type.
-- Keeps all student summaries in a **nested table**.
-- Uses a **GOTO** label to skip students with missing or invalid marks.
-- Prints a student report and class statistics.
+## Learning Objectives
+- Implement PL/SQL Records for structured data handling
+- Use different Collection types (Associative Arrays, Nested Tables, VARRAY)
+- Apply GOTO statements for flow control
+- Handle database operations and exceptions
 
-## Files
-- `sql/student_report.sql` — main PL/SQL script.
-- `docs/explanation.md` — documentation, design notes, and rubric.
+## Project Structure
+- `problem_definition.md` - Detailed problem statement and requirements
+- `database_setup.sql` - Database table creation and sample data
+- `plsql_solution.sql` - Main PL/SQL solution code
+- `documentation.md` - Technical documentation and explanations
+- `instructions.md` - Project setup and execution guide
 
-## How to run
-1. Open SQL*Plus, SQL Developer, or any Oracle tool.  
-2. Enable `SERVEROUTPUT`:
-   ```sql
-   SET SERVEROUTPUT ON SIZE 1000000;
+## Technologies Used
+- Oracle PL/SQL
+- SQL
+- Oracle Database 11g/12c/19c
+
+## How to Execute
+1. Run `database_setup.sql` to create tables and sample data
+2. Execute `plsql_solution.sql` to run the main program
+3. Review output in DBMS Output
+
+## Author
+[Your Name]
+Course: Database Development with PL/SQL
+Date: [Current Date]
